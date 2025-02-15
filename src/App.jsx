@@ -4,13 +4,29 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  alert ("Vanakom");
+  const name ={
+    name:"Manoj",
+    age:19,
+  };
+  const containerStyle = {
+    display: 'flex',
+    justifyContent: 'center', 
+    alignItems: 'center', 
+    height: '100vh', 
+};
+console.log("age="+name.age);
 
-  return (
-    <>
-      <h1>Manoj Kumar R</h1>
-    </>
+return (
+  <div style={containerStyle}>
+    <div className='a'>
+      <p style={{ fontSize: '50px', color: 'WHITE' }}>
+          <h1>name:{name.name}</h1>
+      </p>
+    </div>
+  </div>
   )
 }
+
 
 export default App
