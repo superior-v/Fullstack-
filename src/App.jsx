@@ -23,6 +23,9 @@ return (
       <p style={{ fontSize: '50px', color: 'WHITE' }}>
           <h1>name:{name.name}</h1>
       </p>
+      <button onClick={App}>Click Me</button>
+     <button onClick={name}>Click Here</button>
+     <button onClick={()=>console.log("Nandri Vanakom")}>Mudinja thodu</button>
     </div>
   </div>
   )
