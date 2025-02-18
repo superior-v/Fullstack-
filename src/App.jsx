@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import Compo from './Compo';
 import './App.css'
 
 function App() {
@@ -27,6 +28,10 @@ return (
      <button onClick={name}>Click Here</button>
      <button onClick={()=>console.log("Nandri Vanakom")}>Mudinja thodu</button>
     </div>
+<div>
+      <Compo  name="Manoj" age="18" department="M.tech" name2="JK" age2="19" department2="M.tech" />
+</div>
+
   </div>
   )
 }

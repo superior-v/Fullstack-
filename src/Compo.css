@@ -1,0 +1,16 @@
+p{
+    color:rgb(135, 129, 244);
+}
+*{
+    color:rgba(98, 242, 255, 0.862);
+}
+#mainContainer{
+    border: 10px solid ;
+    border-radius: 50px;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
